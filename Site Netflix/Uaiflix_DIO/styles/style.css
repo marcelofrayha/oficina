@@ -1,0 +1,242 @@
+/* Variables */
+:root {
+  /* Colors */
+  --main-bg-color: #000;
+  --main-text-color: #fff;
+  --main-grey-color: #222;
+  --main-red-color: #f40612;
+  --secondary-grey-color: #303030;
+  /* Font sizes */
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --fs-24: 24px;
+  --fs-26: 26px;
+  --fs-28: 28px;
+  --fs-32: 32px;
+  --fs-40: 40px;
+  --fs-48: 48px;
+  --fs-64: 64px;
+}
+
+/* CSS DEFAULTS */
+body {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: "Roboto", sans-serif;
+}
+
+/* Default values to small devices (mobile-first) */
+h1 {
+  font-size: var(--fs-28);
+  font-weight: 600;
+}
+
+h2, h3 {
+  font-size: var(--fs-18);
+  font-weight: 400;
+}
+
+h5 {
+  font-size: var(--fs-16);
+  font-weight: 400;
+}
+
+/* Boostrap */
+.btn {
+  border-radius: 0;
+  padding: 8px 16px;
+}
+
+.btn-danger {
+  background: var(--main-red-color);
+}
+
+.btn h2 {
+  font-weight: 300;
+}
+
+/* Estilos padrão */
+.navbar {
+  background: transparent;
+  padding: 16px;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #e50914;
+  font-weight: bold;
+  font-size: var(--fs-24);
+  letter-spacing: -2px;
+}
+
+.navbar button {
+  font-weight: 300;
+  padding: 4px 16px;
+}
+
+main {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 10%,
+      rgba(0, 0, 0, 0) 25%,
+      rgba(0, 0, 0, 0.8) 40%
+    ),
+    url("../assets/images/Pocos_de_Caldas.jpg");
+  background-size: cover;
+  /* padding: 64px; */
+}
+
+.main-content {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+
+.main-content__input-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-content__input-container input {
+  flex: 1;
+  padding: 12px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.main-content {
+  padding: 104px 0;
+}
+
+.benefits-section {
+  padding: 32px 32px 40px 32px;
+  text-align: center;
+}
+
+.benefits-section {
+  border-bottom: 8px solid var(--main-grey-color);
+}
+
+.benefits-section:first-of-type {
+  border-top: 8px solid var(--main-grey-color);
+}
+
+.benefits-content div {
+  padding: 16px;
+}
+
+.benefits-content img {
+  width: 100%;
+  height: auto;
+}
+
+#accordion {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#accordion .card {
+  border: none;
+  background: var(--secondary-grey-color);
+  margin-bottom: 8px;
+}
+
+#accordion .card-header {
+  background: var(--secondary-grey-color)#303030;
+  border-radius: none;
+}
+
+#accordion button {
+  color: var(--main-text-color);
+  font-size: var(--fs-18);
+  font-weight: 500;
+}
+
+/* BREAKPOINT: Medium devices */
+@media (min-width: 768px) {
+  h1 {
+    font-size: var(--fs-48);
+  }
+
+  h2 {
+    font-size: var(--fs-24);
+  }
+
+  h3 {
+    font-size: var(--fs-18);
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: var(--fs-16);
+  }
+
+  .navbar-brand {
+    font-size: var(--fs-32);
+  }
+
+  .main-content__input-container {
+    flex-direction: row;
+  }
+
+  .main-content__input-container input {
+    height: 60px;
+    padding: 16px 12px;
+  }
+
+  .main-content__input-container button {
+    height: 60px;
+    font-weight: 400;
+    font-size: var(--fs-32);
+  }
+
+  .main-content {
+    padding: 13rem 0;
+    max-width: 800px;
+  }
+
+  .benefits-section {
+    padding: 40px 40px 56px 40px;
+  }
+}
+
+/* BREAKPOINT: Large devices */
+@media (min-width: 992px) {
+  h1 {
+    font-size: var(--fs-64);
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: var(--fs-26);
+  }
+
+  h3 {
+    font-size: var(--fs-20);
+    font-weight: 400;
+  }
+
+  h5 {
+    font-size: var(--fs-16);
+  }
+}
+
+/* BREAKPOINT: X-Large devices */
+@media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: var(--fs-40);
+  }
+
+  .main-content__input-container input {
+    height: 70px;
+  }
+
+  .main-content__input-container button {
+    height: 70px;
+  }
+}
