@@ -1,5 +1,5 @@
 {
-    "Results": [
+    "Results": 
         {
             "category": "Caça ao tesouro",
             "type": "multiple",
@@ -10,7 +10,7 @@
                 "Acho que é um cavalo",
                 "É uma borboleta",
                 "Só pode ser um dinossauro"
-            ]
+            
         },
         {
             "category": "Caça ao tesouro",
@@ -22,7 +22,7 @@
                 "Um espelho!",
                 "O Mcqueen correndo",
                 "Uma folha de pé"
-            ]
+            
         },
         {
             "category": "Caça ao tesouro",
@@ -34,7 +34,7 @@
                 "Hmm, dinossauro?",
                 "O avião!",
                 "Acho que a dor de barriga"
-            ]
+            
         },
         {
             "category": "Caça ao tesouro",
@@ -46,7 +46,7 @@
                 "O cristal",
                 "A paciência da mamãe",
                 "T-Rex! Uarrrr"
-            ]
+            
         },
         {
             "category": "Caça ao tesouro",
@@ -58,7 +58,7 @@
                 "A chuva",
                 "A orelha",
                 "O McQueen fazendo curva"
-            ]
+   
         }
-    ]
+    
 }
