@@ -1,0 +1,65 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Caça ao tesouro",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "O que é, o que é? Tem cauda, mas não é cão; não tem asas, mas sabe voar. Se a largam, não sobe, e sai ao vento a brincar.",
+            "correct_answer": "É uma pipa",
+            "incorrect_answers": [
+                "Acho que é um cavalo",
+                "É uma borboleta",
+                "Só pode ser um dinossauro"
+            ]
+        },
+        {
+            "category": "Caça ao tesouro",
+            "type": "multiple",
+            "difficulty": "médio",
+            "question": "O que fica na frente do sol mas não faz sombra?",
+            "correct_answer": "Deve ser o ar",
+            "incorrect_answers": [
+                "Um espelho!",
+                "O Mcqueen correndo",
+                "Uma folha de pé"
+            ]
+        },
+        {
+            "category": "Caça ao tesouro",
+            "type": "multiple",
+            "difficulty": "fácil",
+            "question": "O que é, o que é? Quanto maior menos se vê",
+            "correct_answer": "Talvez, o escuro?",
+            "incorrect_answers": [
+                "Hmm, dinossauro?",
+                "O avião!",
+                "Acho que a dor de barriga"
+            ]
+        },
+        {
+            "category": "Caça ao tesouro",
+            "type": "multiple",
+            "difficulty": "difícil",
+            "question": "O que se quebra quando se diz seu nome?",
+            "correct_answer": "O silêncio",
+            "incorrect_answers": [
+                "O cristal",
+                "A paciência da mamãe",
+                "T-Rex! Uarrrr"
+            ]
+        },
+        {
+            "category": "Caça ao tesouro",
+            "type": "multiple",
+            "difficulty": "difícil",
+            "question": "O que é, o que é? Quando a gente fica em pé, ele fica deitado, e quando a gente deita, ele fica em pé.",
+            "correct_answer": "Deve ser o querido pé",
+            "incorrect_answers": [
+                "A chuva",
+                "A orelha",
+                "O McQueen fazendo curva"
+            ]
+        }
+    ]
+}
